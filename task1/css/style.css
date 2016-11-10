@@ -1,0 +1,115 @@
+﻿body {
+  font-family: Tahoma;
+}
+
+.main-box {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.paragraph {
+  text-align: center;
+  padding: 5px 0 20px 0;
+  font-size: 18px;
+}
+
+.listItem {
+  font-size: 12px;
+  font-size: 18px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 40px;
+  font-size: 19px;
+  border: 2px solid #69737c;
+  background: rgb(207, 226, 243);
+  margin-top: 15px;
+}
+
+.radio {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio + label {
+  position: relative;
+  padding: 0 0 0 30px; 
+}
+
+.radio+ label:before {
+  vertical-align: center;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background: rgb(208,226,240);
+  border: 2px solid #6e707c;
+}
+
+.radio:checked + label:before {
+  background: #42e5e6;
+  content: "\2713";
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 15px;
+}
+
+.modal-form {
+  width: 520px;
+  height: 150px; 
+  border-radius: 5px;
+  border: 3px #000 solid;
+  background: #eee;
+  position: fixed; 
+  top: 45%; 
+  left: 50%; 
+  margin-top: -150px;
+  margin-left: -150px; 
+  display: none; 
+  opacity: 0; 
+  z-index: 500; 
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+  font-family:  Helvetica sans-serif;
+  font-size: 20px;
+}
+
+.modal-form .modal-close {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: block;
+}
+
+.overlay {
+  z-index: 3; 
+  position: fixed; 
+  background-color: #000; 
+  opacity: 0.7; 
+  width:100%; 
+  height:100%; 
+  top:0; 
+  left:0;
+  cursor:pointer;
+  display:none; 
+}
+
+.rezult-value {
+  font-weight: bold;
+}
+
+.rezult {
+  font-size: 25px;
+}
