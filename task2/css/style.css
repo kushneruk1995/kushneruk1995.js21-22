@@ -28,7 +28,7 @@
   padding: 10px 40px;
   font-size: 19px;
   border: 2px solid #69737c;
-  background: rgb(207, 226, 243);
+  background: rgba(64,89,174,0.5);
   margin-top: 15px;
 }
 
@@ -50,17 +50,19 @@
   left: 0;
   width: 15px;
   height: 15px;
-  background: rgb(208,226,240);
-  border: 2px solid #6e707c;
+  border-radius: 3px;
+  border: 2px solid #000;
+  background: rgba(64,89,174,0.2);
 }
 
 .radio:checked + label:before {
-  background: #42e5e6;
+  background: rgba(64, 89, 174, 1);
   content: "\2713";
   font-size: 15px;
   color: #fff;
+  font-weight: bold;
   text-align: center;
-  line-height: 15px;
+  line-height: 15px; 
 }
 
 .modal-form {

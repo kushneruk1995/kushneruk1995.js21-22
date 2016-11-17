@@ -1,4 +1,4 @@
-var app = require('../script/task.js');
+var app = require('../script/app.js');
 
 describe("it should be exponentiation of positive numbers", function() {
   it("and so is a spec", function() {

@@ -1,17 +1,4 @@
 var app = {
-  enterValue : function() {
-      var numberString = prompt("Введіть число, яке необхідно піднести до степіня");
-      var number = parseFloat(numberString);
-      this.checkValue(number);
-      console.log(" число=", numberString);
-      var powString = prompt("Введіть ступінь, до якого необхідно піднести число");
-      var pow = parseFloat(powString);
-      this.checkValue(pow);
-      console.log(" степінь=", pow);
-      var result;
-      this.exponentiation(number, pow);
-  },
-
   checkValue: function (checkValue) {
       if ( isNaN(checkValue)) {
 
@@ -50,9 +37,4 @@ var app = {
   }
 };
 
-app.enterValue();
-
-
-
-
-
+module.exports = app;
